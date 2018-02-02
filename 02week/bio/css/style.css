@@ -1,0 +1,52 @@
+body {
+  /* background-color: #f4efbc; */
+  background-image: url(roses.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: cover;
+  /* background-blend-mode: soft-light; */
+
+
+}
+h1 {
+  /* color:#8c8c8c; */
+  text-align: center;
+  font-family: harriet;
+  font-size: 50px;
+
+}
+/* you can google the hex color */
+p {
+  text-align: center;
+  color: #ffffff;
+  /* border: 2px solid orange; */
+}
+
+.floating-box {
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    color: #ffffff;
+    width: 120px;
+    height: 45px;
+    margin: 8px;
+    background-color: #ffdddf;
+    border-radius: 50%;
+    /* border: 3px solid #73AD21; */
+
+}
+.button {
+      background-color: #4CAF50; /* Green */
+      border: none;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 50%;
+  }
+.button1 {border-radius: 50%;}
