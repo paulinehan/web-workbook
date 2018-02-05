@@ -1,0 +1,43 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color:#3b5b8e;
+  font-family: georgia;
+  font-size: 80px;
+
+}
+/* you can google the hex color */
+p {
+  color: red;
+  border: 2px solid orange;
+  /* can do dotted */
+  padding: 30px;
+  /* space between words and border */
+  margin: 50px;
+}
+/* <p id="p01"> This is the second paragraph</p> goes in html */
+#p01 {
+  color: green;
+}
+/* <a href="#" class="button">link button</a> */
+.button {
+  background-color: #9fadc4;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+
+}
+/* <button class=“button” type = “button” onclick=“alert(‘Hello world!’)”>Click Me</Button>_ */
+/* <a href="#" class="button">link button</a> */
+div:hover{
+  background-color:orange;
+}
+p::first=letter{
+  text-transform: uppercase;
+  color: red;
+  font-size: 30px;
+}
+/* pseudo element makes the first letter capitalized */
+/* pseudo class makes the the text change when you hover */
