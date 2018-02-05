@@ -1,73 +1,189 @@
 body{
-  font-family: "lobster", cursive;
+  font-family: "abel", serif;
 }
 
+#title-blog{
+  display: inline-block;
+
+}
+
+#title {
+ font-size: 40;
+ color: tomato;
+}
+h1{
+ text-shadow: 2px 2px black;
+  font-family: 'Abel', serif;
+  font-size: 50px;
+  font-weight: bold;
+}
 
 #nav {
   width: 100%;
-  background-color: pink;
-  color: white;
-  text-align: right;
-  font-family: serif;
-  font-weight: bold;
-  color: white;
+  background-color: lightgrey;
+  /* font-weight: bold; */
+
   position: sticky;
+  /* top: auto; */
+  text-align: center;
 
 
 }
 
+
 #nav li{
+
   list-style-type; none;
   display: inline-block;
   border: none;
-  text-transform: uppercase;
-  padding: 15px 15px;
+  padding: 30px 30px;
+  position: relative;
+  letter-spacing: 5px;
+
   /* see w3 to see padding order */
+}
+.nav2 li:hover{
+  background-color: white;
+
 }
 
 
 #nav a {
   text-decoration: none;
+  color: black;
+}
+#nav a:visited{
+  text-decoration: none;
 }
 
 #container{
   background-color: lightblue;
+  opacity: 0.7;
   text-align: center;
-  margin: 10px auto auto auto;
-  padding: 20px;
+  /* margin: 10px auto auto auto;
+  padding-top: 10px; */
+  width: 100%;
+}
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.clearfix::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.column.sidebar2{
+  width; 30%;
+
+}
+/* .row:after{
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+.column.content{
+  width 20%;
+}
+
+
+
+#sidebar2{
+  float: left;
+  /* margin-left: 5px; */
+
+  /* puts piggy image on the side */
+  display: table;
+  width: 20%;
+}
+#sidebar2 h2{
+  text-align: left;
+  margin-left: 50px;
+  text-decoration: underline
+}
+#sidebar2 li{
+  text-align: left;
+  letter-spacing: 5px;
+  padding: 10px;
+  list-style-type: none;
+}
+
+
+
+#sidebar2 a{
+  text-decoration: none;
+  color: tomato !important;
+}
+
+#sidebar2 a:hover{
+  text-shadow: 1px 1px black;
+}
+
+/* .content{
+  display: block;
+  width: 80%;
+  float: right;
+
+
+} */
+
+#blogpost2 {
+border: white dotted 2px;
+text-indent: 20px;
+text-align: left;
+}
+p{
+  padding: 20px 20px;
+}
+
+#blog {
+  display: inline-block;
+  border: black solid 2px;
   width: 70%;
 }
 
-h1 {
-  font-family: 'lobster',cursive;
-}
-#sidebar{
-  margin-left: 15px;
-  width: 20%;
-  /* puts piggy image on the side */
-  /* display: inline-block; */
+
+img{
+  height: 20px;
+  width: 100px;
+  opacity: 0.6;
 }
 
-#content{
-  width: 50px;
-  float: right;
-
+h5+ p+ p{
+  font-weight: bolder;
+  color: green;
 }
-
-.blogpost {
+#blog h5 {
   text-align: left;
-  padding: 20px;
-  width: 30%;
-  /* position: relative; */
-  /* display: inline-block; */
-
+  text-indent: 20px;
+  /* color:white; */
+  font-size: 20px;
+  letter-spacing: 5px;
 }
 
+#blog a{
+  text-decoration: none;
+  color: tomato !important;
+}
 
-.avatar{
-  width: 50%;
-  border-radius: 100%;
-  height: auto;
-  /* position: fixed; */
-  /* display: inline-block; */
+#blog a:hover{
+  font-size: 20px;
+  color: white;
+  text-decoration: underline;
+}
+
+p:hover::first-letter{
+
+ color: green;
+ font-size: 30px;
+}
+p:nth-child(3){
+  background-color: black;
+}
+
+footer{
+  text-align: center;
 }
