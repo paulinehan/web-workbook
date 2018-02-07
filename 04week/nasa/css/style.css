@@ -23,7 +23,7 @@ display: flex;
 width: 850px;
 height: 324px;
 background-color: #e6e6e6;
-/* align-items: space-around; */
+align-items: flex-start;
 justify-content: space-around;
 margin: 0px auto;
 font-size: 15px;
