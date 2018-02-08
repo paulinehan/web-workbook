@@ -1,46 +1,7 @@
 body{
-  font-family: 'Open Sans';
+  font-family: "pt sans";
   color: white;
 }
-
-.nav{
-  overflow: hidden;
-  background-color: #123754;
-  /* width: 100%; */
-  padding-left: 30px;
-  /* padding: 20px 10px; */
-  line-height: 20px;
-
-
-}
-
-.nav-right {
-  float: right;
-  text-decoration: none;
-  font-size: 12px;
-  /* line-height: 40px; */
-  padding: 30px;
-  word-spacing: 3px;
-  margin-right: 50px;
-}
-
-a{
-  text-decoration: none;
-  font-family: 'open sans';
-  color: white;
-
-}
-a:first-child{
-  color: #09beae;
-}
-a:hover{
-  color: #09beae;
-}
-a:visited{
- text-decoration: none;
-}
-
-/* body */
 
 .container{
   width: 100%;
@@ -135,16 +96,12 @@ label{
   padding: 10px;
   line-height: 50px;
 }
-p{
-  font-size: 12px;
-}
 
 .button2{
   text-decoration: none;
   background-color: #0063b7;
   text-align: center;
   padding: 15px;
-  font-size: 12px;
 
 }
 
@@ -152,7 +109,6 @@ p{
  color: white;
  text-decoration: none;
 }
-
 .flex-container{
   width: 346px;
   display: flex;
