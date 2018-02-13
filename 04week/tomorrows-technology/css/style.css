@@ -1,0 +1,158 @@
+body{
+  font-family: 'Raleway';
+}
+.column{
+  position: relative;
+  max-width: 65%;
+  max-height: auto;
+  padding: 20px;
+
+}
+
+img{
+  max-width: 100%;
+  max-height: auto;
+
+}
+
+.column h2{
+  font-weight: bolder;
+  font-size: 2em;
+
+}
+
+.column p{
+  font-size: 1.25em;
+
+}
+
+.button{
+  background-color: #47494c;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  padding: 10px;
+}
+/*
+.titlecontainer{
+  display: flex;
+
+} */
+.column2{
+  width: auto;
+  padding: 20px;
+  position: absolute;
+  left: 70%;
+  top: 15px;
+  font-weight: bold;
+}
+.column2 li{
+  list-style-type: none;
+  text-indent: -40px;
+}
+
+.column2 a{
+  text-decoration: none;
+  color: black;
+}
+
+.socialcontainer{
+  visibility: hidden;
+}
+
+@media (max-width: 1200px){
+
+.titlecontainer{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+}
+
+.button{
+  align-items: left !important;
+}
+
+  .column img{
+    width: 768px;
+    height: auto;
+  align-content: center;
+}
+
+ .titlecontainer h2{
+  /* color: blue; */
+  align-content: center;
+
+}
+
+
+
+.column2{
+  visibility: collapse;
+}
+.socialcontainer{
+  visibility: collapse;
+}
+}
+
+@media (max-width:768px){
+
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+.socialcontainer{
+  position: absolute;
+  bottom: 0%;
+  visibility: visible;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: gray;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 100%;
+  color: white;
+}
+
+.socialcontainer h1{
+ font-weight: bolder;
+ font-size: 1.25em;
+
+}
+
+
+/* .column3 li{
+  list-style-type: none;
+  text-indent: -50px;
+  padding: 10px;
+  width: 100%;
+  border: 2px solid black;
+  border-width: 100%;
+  text-decoration: underline;
+} */
+
+.column3 a{
+  text-decoration: none;
+  font-weight: 0.8em;
+  color: white;
+  width: 100%;
+
+}
+.column3 img{
+display: inline-block;
+margin-left: 20px;
+  }
+
+img.right{
+ margin-left: 40px;
+}
+
+}
