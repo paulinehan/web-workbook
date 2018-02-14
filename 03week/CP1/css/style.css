@@ -10,7 +10,8 @@ body{
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-    background-color: pink;
+    background-color: #6287c1;
+    opacity: 0.7;
     padding-left: 30px;
     line-height: 20px;
 
@@ -27,6 +28,7 @@ body{
   list-style-type: none;
   margin-left: -100px;
 }
+
 .nav-center li{
   font-family: "bree Serif", sans-serif;
     display: inline-block;
@@ -205,20 +207,20 @@ body{
   font-size: 2em;
   color: white;
 }
+
 /* footer goes here */
 .flex-container{
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
   color:#ad0532;
-  background-color: lightpink;
+  background-color: #6287c1;
+    opacity: 0.7;
 bottom: 0%;
 padding-bottom: 30px;
 margin-top: 10px;
 font-size: 1em;
 font-family: "bree serif";
-
-opacity: 0.9;
 }
 
 .flex-container h1{
