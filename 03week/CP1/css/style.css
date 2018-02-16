@@ -130,7 +130,10 @@ body{
   top: 15%;
  left: 10%;
   background-color:#123b7c;
-  width: 50%;
+  Border: 2px solid white;
+  /* width: 50%; */
+  width: auto;
+  height: auto;
   padding: 50px;
   opacity: 0.8;
   text-align: center;
