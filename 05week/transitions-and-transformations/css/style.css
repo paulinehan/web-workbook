@@ -11,55 +11,55 @@
   margin: 0 auto;
 }
 .container:hover > div:nth-child(odd){
-  transform: scale(2) translate(200px) rotate(360deg);
+  transform: scale(2) translate(300px) rotate(360deg);
   transition-duration: 3s;
   background-color: pink;
 }
 .container:hover > div:nth-child(5){
-  transform: scale(2) translate(200px) rotate(360deg);
+  transform: scale(2) translate(300px) rotate(360deg);
   transition-duration: 3s;
   background-color: #e5394d;
 }
 .container:hover > div:nth-child(7){
-  transform: scale(2) translate(200px) rotate(360deg);
+  transform: scale(2) translate(300px) rotate(360deg);
   transition-duration: 3s;
   background-color: #e5394d;
 }
 .container:hover > div:nth-child(9){
-  transform: scale(2) translate(200px) rotate(360deg);
+  transform: scale(2) translate(300px) rotate(360deg);
   transition-duration: 3s;
   background-color: #6273b2;
 }
 .container:hover > div:nth-child(11){
-  transform: scale(2) translate(200px) rotate(360deg);
+  transform: scale(2) translate(300px) rotate(360deg);
   transition-duration: 3s;
   background-color: #6273b2;
 }
 /* even container starts here */
 .container:hover > div:nth-child(even){
-  transform: scale(0.5) translate(-400px) rotate(-360deg);
+  transform: scale(0.5) translate(-1200px) rotate(-360deg);
   transition-duration: 3s;
   background-color: lavender;
 }
 
 .container:hover > div:nth-child(6){
-  transform: scale(0.5) translate(-400px) rotate(-360deg);
+  transform: scale(0.5) translate(-1200px) rotate(-360deg);
   transition-duration: 3s;
   background-color: powderblue;
 }
 
 .container:hover > div:nth-child(8){
-  transform: scale(0.5) translate(-400px) rotate(-360deg);
+  transform: scale(0.5) translate(-1200px) rotate(-360deg);
   transition-duration: 3s;
   background-color: powderblue;
 }
 .container:hover > div:nth-child(10){
-  transform: scale(0.5) translate(-400px) rotate(-360deg);
-  transition-duration: 3s;
+  transform: scale(0.5) translate(-1200px) rotate(-360deg);
+  transition-duration: 3s
   background-color: #ccffde;
 }
 .container:hover > div:nth-child(12){
-  transform: scale(0.5) translate(-400px) rotate(-360deg);
+  transform: scale(0.5) translate(-1200px) rotate(-360deg);
   transition-duration: 3s;
   background-color: #ccffde;
 }
