@@ -14,8 +14,7 @@ h1{
 }
 img{
   width: 100px;
-
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 .header img{
   width: auto;
