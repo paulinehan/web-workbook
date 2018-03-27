@@ -1,0 +1,24 @@
+Towers of Hanoi Whiteboard
+
+We need a board, make the box droppable
+revert when invalid and not in droppable area
+we need rings- make them draggable
+We need the ability to move rings to another stack.
+We need to check for win.
+
+
+Rule:
+rules: no bigger block can be placed over smaller block
+//top block
+$(ui.draggable).data('block') --> '25'
+
+rules: one block at a time
+rules: can only pick up top block***** (extra credit)
+
+determining win: when drop area 3 (data-stack3) has 4 blocks in them, ..child() === 4
+
+declare winner!!
+
+clear Board
+
+keep count of how many moves there are
