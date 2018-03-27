@@ -1,0 +1,10 @@
+input {
+  width: 180px;
+  margin-left: 2px
+}
+.button {
+  border: 2px solid lightblue;
+  width: 40px;
+  text-align: center;
+  cursor: pointer;
+}
