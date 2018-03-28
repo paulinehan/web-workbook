@@ -1,67 +1,110 @@
+  
 'use strict';
 
 $(document).ready(function(){
   var turn = "X";
+  var counter = 0;
   $('[data-cell]').on('click', function(){
     if($(this).text() === ''){
       $(this).text(turn);
+      counter = 0;
       wins();
       if(turn === "O"){
         turn = "X";
-      }else{
+      }
+
+      else{
+        counter++;
         turn = 'O';
       }
     }
    })
-})
+
 
 function wins() {
-  if($('[data-cell = "0"]').text() === "X" &&
-    $('[data-cell = "3"]').text() === "X" &&
-    $('[data-cell = "6"]').text() === "X") {
-    alert("X wins");
+  if($('[data-cell = "0"]').text() === turn &&
+    $('[data-cell = "3"]').text() === turn &&
+    $('[data-cell = "6"]').text() === turn) {
+    alert(turn+  " wins");
+  }
+  else if($('[data-cell = "1"]').text() === turn &&
+    $('[data-cell = "4"]').text() === turn &&
+    $('[data-cell = "7"]').text() === turn) {
+    alert(turn + " wins");
+
+  }
+   else if($('[data-cell = "2"]').text() === turn &&
+    $('[data-cell = "5"]').text() === turn &&
+    $('[data-cell = "8"]').text() === turn) {
+    alert(turn + " wins");
+  }
+  else if($('[data-cell = "0"]').text() === turn &&
+    $('[data-cell = "1"]').text() === turn &&
+    $('[data-cell = "2"]').text() === turn) {
+    alert(turn + " wins");
+  }
+  else if($('[data-cell = "3"]').text() === turn &&
+    $('[data-cell = "4"]').text() === turn &&
+    $('[data-cell = "5"]').text() === turn) {
+    alert(turn + " wins");
+  }
+  else if($('[data-cell = "6"]').text() === turn &&
+    $('[data-cell = "7"]').text() === turn &&
+    $('[data-cell = "8"]').text() === turn) {
+    alert(turn + " wins");
+  }
+   else if($('[data-cell = "0"]').text() === turn &&
+    $('[data-cell = "4"]').text() === turn &&
+    $('[data-cell = "8"]').text() === turn) {
+    alert(turn + " wins");
+  }
+   else if($('[data-cell = "2"]').text() === turn &&
+    $('[data-cell = "4"]').text() === turn &&
+    $('[data-cell = "6"]').text() === turn) {
+    alert(turn + " wins");
+  }
+else if(counter===7){
+    alert('tie game!');
+
   }
 }
-  // Put app logic in here
-});
-// "hello world" + var +""
-// // is the same thing as this
-// `helloworld ${var}`
+console.log(counter)
 
-// classs stuff starts here
 
-// 'use strict';
-//
-// $(document).ready(function(){
-//   var turn = 'X';
-//   $('[data-cell]').on('click', function(){
-//     if($(this).text() === ''){
-//     $(this).text(turn);
-//     wins();
-//     if(turn === "O"){
-//       turn = "X";
-//     }else{
-//       turn = "O";
-//     }
-//
-//   }
-//   })
-//
+
+$('#clear').click(function(){
+         $("[data-cell]").text('');
+      turn = 'X';
+        })
+
+
+
+
+})
+
+
 //
 //
 //   function wins(){
 //     if($('[data-cell="0"]').text()=== turn&&
 //       $('[data-cell="3"]').text()=== turn&&
 //       $('[data-cell="6"]').text()=== turn)
-//
+
 //       elseif($('[data-cell="1"]').text()=== turn&&
 //       $('[data-cell="4"]').text()=== turn&&
 //       $('[data-cell="7"]').text()=== turn)
+
+//     elseif($('[data-cell="1"]').text()=== turn&&
+//       $('[data-cell="4"]').text()=== turn&&
+//       $('[data-cell="7"]').text()=== turn)
+
 //       var div = document.getElementById('announce-winner');
 //       div.innerHTML = "player " + turn + " wins!";
-//       document.appendChild(div);
-//       // alert(`Player ${turn} wins!`);
-//
+//       document.appendChild(div);{
+//      alert(`Player ${turn} wins!`);
+//   }
+//     };
+
 //
 // //   remember to append it so it goes into the document
 //
@@ -69,20 +112,10 @@ function wins() {
 //       // "hello" + playerTurn + 'Wins' vs 'hello' vs `hello ${playerTurns}`
 //     }
 //
-//   }
 //
 //
-// function checkTie() {
-// let tie = true;
-// $('[data-cell]').each(function(){
-// if($(this).text()= ''){
-// tie = false
-// }
-// })
-// if (tie && ('announce-winner'.text() =='')){
-// $('announce-winner'.text('tie')
-// }
-// }
+//
+
 //
 // //  function clearboard(){
 // //    // $("#clear").on('click', function(){
