@@ -23,10 +23,10 @@ function goGo() {
 // function newUpdate() {
 //     update = setInterval(changeTitle, $("#drake").click(function ());
 //   }
-var title = document.title;
+// var title = document.title;
 
 function updateReport() {
-title.text(Math.floor(data.totalCurrent + title);
+// title.text(Math.floor(data.totalCurrent + title);
   $("#currentTotal").text(Math.floor(data.totalCurrent));
   $("#rps").text((data.totalRPS/70.4).toFixed(3));
 }
