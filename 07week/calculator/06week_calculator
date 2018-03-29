@@ -1,0 +1,88 @@
+https://codepen.io/austincoding/pen/RLVrbg
+
+HTML
+
+<div id="calc">
+  <input type="text" id="results">
+  <table>
+    <tr>
+      <td class="button" onclick="addNumber('1')">1</td>
+      <td class="button" onclick="addNumber('2')">2</td>
+      <td class="button" onclick="addNumber('3')">3</td>
+      <td class="button" onclick="addition()">+</td>
+    </tr>
+    <tr>
+      <td class="button" onclick="addNumber('4')">4</td>
+      <td class="button" onclick="addNumber('5')">5</td>
+      <td class="button" onclick="addNumber('6')">6</td>
+      <td class="button" onclick="subtraction()">-</td>
+    </tr>
+    <tr>
+      <td class="button" onclick="addNumber('7')">7</td>
+      <td class="button" onclick="addNumber('8')">8</td>
+      <td class="button" onclick="addNumber('9')">9</td>
+      <td class="button" onclick="multiply()">*</td>
+    </tr>
+    <tr>
+      <td class="button" onclick="plusMinus()">+/-</td>
+      <td class="button" onclick="addNumber('0')">0</td>
+      <td class="button" onclick="equals()">=</td>
+      <td class="button" onclick="divide()">/</td>
+    </tr>
+    <tr>
+      <td class="button" colspan="2" onclick="deleteLast()">Delete</td>
+      <td class="button" colspan="2" onclick="clearResults()">Clear</td>
+  </table>
+</div>
+
+css
+input {
+  width: 119.5px;
+  margin-left: 2px
+}
+.button {
+  border: 1px solid black;
+  width: 26px;
+  text-align: center;
+  cursor: pointer;
+}
+
+JAVASCRIPT
+function addNumber(num) {
+  document.querySelector("#results").value += num;
+}
+
+function clearResults() {
+  document.querySelector("#results").value = "";
+}
+
+function addition() {
+  document.querySelector("#results").value += "+";
+}
+function subtraction() {
+  document.querySelector("#results").value += "-";
+}
+function multiply() {
+  document.querySelector("#results").value += "*";
+}
+function divide() {
+  document.querySelector("#results").value += "/";
+}
+function plusMinus() {
+ let current = document.querySelector("#results").value;
+ document.querySelector("#results").value = current * -1;
+}
+
+// function negToggle() {
+// document.querySelector("#results").value += "*-1";
+// equals();
+// }
+
+function equals() {
+  document.querySelector("#results").value = eval(document.querySelector("#results").value);
+}
+
+function deleteLast() {
+  let current = document.querySelector("#results").value;
+  document.querySelector("#results").value = current.slice(0, -1);
+}
