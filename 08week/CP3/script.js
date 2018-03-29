@@ -34,9 +34,9 @@ function updateReport() {
 }
 
 
-
+// fades the right bar in and out
 $("#drake").click(function (){
-   $("#wish1").fadeToggle(4000);
+   $("#wish1").fadeToggle(5000);
     $("#wish2").fadeToggle("slow");
    $("#wish3").fadeToggle(3000);
    $("#wish4").fadeToggle(1000);
@@ -47,7 +47,7 @@ $("#drake").click(function (){
    $("#wish9").fadeToggle(3500);
    $("#wish10").fadeToggle(30000);
    $("#wish11").fadeToggle(3200);
-   $("#wish12").fadeToggle(4500);
+   $("#wish12").fadeToggle(5000);
    // $("#wish13").fadeToggle(1800);
    // $("#wish14").fadeToggle(2200);
    // $("#wish15").fadeToggle(5000);
