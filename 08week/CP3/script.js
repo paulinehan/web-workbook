@@ -14,8 +14,19 @@ function goGo() {
   $("#drake").css({ 'transform': 'rotate(' + data.totalRevs + 'deg)'});
   updateReport();
 }
+// var title = document.title;
+// function changeTitle() {
+//     count++;
+//     var newTitle = '(' + count + ') ' + title;
+//     document.title = newTitle;
+// }
+// function newUpdate() {
+//     update = setInterval(changeTitle, $("#drake").click(function ());
+//   }
+var title = document.title;
 
 function updateReport() {
+title.text(Math.floor(data.totalCurrent + title);
   $("#currentTotal").text(Math.floor(data.totalCurrent));
   $("#rps").text((data.totalRPS/70.4).toFixed(3));
 }
@@ -23,16 +34,22 @@ function updateReport() {
 
 
 $("#drake").click(function (){
-   $("#wish1").fadeToggle(1000);
+   $("#wish1").fadeToggle(4000);
     $("#wish2").fadeToggle("slow");
    $("#wish3").fadeToggle(3000);
    $("#wish4").fadeToggle(1000);
    $("#wish5").fadeToggle(2000);
    $("#wish6").fadeToggle(3000);
    $("#wish7").fadeToggle(2400);
-   $("#wish8").fadeToggle(5000);
+   $("#wish8").fadeToggle(26000);
    $("#wish9").fadeToggle(3500);
-   $("#wish10").fadeToggle(4000);
+   $("#wish10").fadeToggle(30000);
+   $("#wish11").fadeToggle(3200);
+   $("#wish12").fadeToggle(4500);
+   // $("#wish13").fadeToggle(1800);
+   // $("#wish14").fadeToggle(2200);
+   // $("#wish15").fadeToggle(5000);
+
 
   data.totalRevs ++;
   data.totalCurrent ++;
@@ -51,12 +68,18 @@ $(".button").click(function (){
 
   }
   updateReport();
-})
-
-var count = 0;
-var title = document.title;
-function changeTitle() {
-    count++;
-    var newTitle = '(' + count + ') ' + title;
-    document.title = newTitle;
-}
+});
+//
+// var count = 0;
+//
+//
+// var title = document.title;
+// function changeTitle() {
+//     count++;
+//     var newTitle = '(' + count + ') ' + title;
+//     document.title = newTitle;
+// }
+// function newUpdate() {
+//     update = setInterval(changeTitle, $("#drake").click(function ());
+//   }
+// docBody.onload = newUpdate;
