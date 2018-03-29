@@ -3,7 +3,8 @@
 var data = {
   totalRevs:360,
   totalCurrent:0,
-  totalRPS: 0
+  totalRPS: 0,
+  counter: 0
 };
 
 setInterval(goGo,1000);
@@ -23,12 +24,13 @@ function goGo() {
 // function newUpdate() {
 //     update = setInterval(changeTitle, $("#drake").click(function ());
 //   }
-var title = document.title;
+// var title = document.title;
 
 function updateReport() {
-title.text(Math.floor(data.totalCurrent + title);
+// title.text(Math.floor(data.totalCurrent + title);
   $("#currentTotal").text(Math.floor(data.totalCurrent));
   $("#rps").text((data.totalRPS/70.4).toFixed(3));
+ document.title = data.totalCurrent + " Good Wishes";
 }
 
 
@@ -54,7 +56,9 @@ $("#drake").click(function (){
   data.totalRevs ++;
   data.totalCurrent ++;
   updateReport();
+
 })
+
 
 
 $(".button").click(function (){
