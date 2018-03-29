@@ -1,0 +1,40 @@
+
+EOC Quiz
+* Required
+Name *
+What is semantic tag?
+things that tell your browser how to read an element better
+
+What are the differences between div and span?
+div - block element
+span - inline (used inside of another tag)
+
+What is Doctype? Why do you need it?
+specifies document for brower
+
+What is "use strict" ? Why do you need it?
+cannot use variable without declaring it first
+makes sure JS follows the correct guidelines
+
+What are the differences between div and span?
+How absolute, relative, fixed and static position differ?
+What are the differences between inline, block and inline-block?
+List the elements of the Box Model (in order from the outermost to innermost)
+What is the difference between classes and IDs in CSS?
+what is the differences between pseudo elements and pseudo classes? Give examples of each!
+What Is an Object? (in JavaScript)
+What is the difference between global and local scope?
+Is there any difference between a window and a document?
+Does $(document).ready() and window.onload fire at the same time?
+What are the differences between == and ===?
+Explain how $(this) works in JavaScript
+What is the value of 4+1+2+"1"
+What is the value of ! ?
+What will [typeof(NaN)] return?
+Using jQuery, what is the correct syntax for targeting an id in HTML?
+document.getElementById("data");
+$("#data");
+$(".data");
+window.getElementById("data");
+Construct a for loop that would run 67 times
+0 points
