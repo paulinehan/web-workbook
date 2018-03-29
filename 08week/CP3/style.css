@@ -179,8 +179,10 @@ padding-top: 10%;
   font-size: 1.5em;
   grid-column: 3/4;
   grid-row: 1/6;
+
   /* background-image: url("https://t2.genius.com/unsafe/1012x0/https%3A%2F%2Fimages.genius.com%2F4115ddf07988df57f7552467edc07f71.939x939x1.jpg"); */
  background-color: lightgrey;
+
 opacity: 0.8;
  background-attachment: fixed;
  padding: 100px;
@@ -188,7 +190,7 @@ opacity: 0.8;
   color:white;
   font-weight: bolder;
   margin-top: -20px;
-  margin-bottom: -23%;
+  margin-bottom: -45%;
   /* visibility: collapse; */
 }
 

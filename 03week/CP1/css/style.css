@@ -27,6 +27,7 @@ align-items: flex-start;
   list-style-type: none;
   margin-left: -100px;
 }
+
 .nav-center li{
   font-family: "bree Serif", sans-serif;
     display: inline-block;
@@ -129,10 +130,10 @@ body{
   top: 15%;
  left: 10%;
   background-color:#123b7c;
-  Border: 2px solid white;
-  /* width: 50%; */
+
+  border: 2px solid white;
   width: auto;
-  height: auto;
+
   padding: 50px;
   opacity: 0.8;
   text-align: center;
@@ -208,6 +209,7 @@ body{
   font-size: 2em;
   color: white;
 }
+
 /* footer goes here */
 .flex-container{
   display: flex;
